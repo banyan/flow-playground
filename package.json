@@ -1,0 +1,24 @@
+{
+  "name": "flow-playground",
+  "version": "0.0.1",
+  "description": "Play with flow :)",
+  "scripts": {
+    "flow": "$(npm run)/flow",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/banyan/flow-playground.git"
+  },
+  "author": "Kohei Hasegawa",
+  "license": "MIT",
+  "homepage": "https://github.com/banyan/flow-playground",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "flow-bin": "^0.22.1",
+    "json-loader": "^0.5.3",
+    "mocha": "^2.3.4",
+    "mocha-webpack": "^0.3.0",
+    "sinon": "^1.17.4",
+    "sinon-chai": "^2.8.0"
+  }
+}
